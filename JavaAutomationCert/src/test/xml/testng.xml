@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Certification" verbose="1" >
+    <test name="challenge1">
+        <classes>
+            <class name="challenge1.challenge1"/>
+            <class name="challenge2.PorscheAssert"/>
+            <class name="challenge3.Loops"/>
+            <class name="challenge4.Fibonacci"/>
+            <class name="challenge5.IfElseSwitch"/>
+            <class name="challenge6.ErrorHandling"/>
+            <class name="challenge7.ArraysTest"/>
+        </classes>
+    </test>
+</suite>
